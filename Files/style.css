@@ -2,3 +2,7 @@
     margin: 0;
     padding: 0;
 }
+.class{
+    display: flex;
+    gap: 10px;
+}
