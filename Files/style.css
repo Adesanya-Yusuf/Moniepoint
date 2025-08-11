@@ -1,11 +1,76 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .class{
     display: flex;
     gap: 10px;
 }
-.part p{
-    
+.part h2{
+    color: ;
+}
+.flex a{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgb(53,66,93);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.gun a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.gun a:hover{
+    background-color: rgb(53,66,93);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.zeus{
+    display: flex;
+    gap: 30px;
+}
+.class1{
+    display: flex;
+    background-color: rgb(196,233,253);
+    width: 7rem;
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+.one{
+    display: flex;
+    align-items: center;
+}
+.two a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.bigcontainer{
+    display: flex;
+    gap: 30rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.class2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
