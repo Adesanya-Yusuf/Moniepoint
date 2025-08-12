@@ -3,12 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .class{
     display: flex;
     gap: 10px;
 }
 .part h2{
-    color: ;
+    color: white;
+    font-size: 20px;
+}
+.part p{
+    color: white;
+    font-size: 13px
 }
 .flex a{
     font-size: 20px;
@@ -21,6 +29,7 @@
 .gun a{
     font-size: 20px;
     text-decoration: none;
+    color: white;
 }
 .gun a:hover{
     background-color: rgb(53,66,93);
@@ -61,16 +70,103 @@
 .two a{
     font-size: 20px;
     text-decoration: none;
+    color: white;
 }
 .bigcontainer{
     display: flex;
     gap: 30rem;
     justify-content: center;
-    margin-top: 2rem;
 }
 .class2{
     display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
+}
+nav{
+    background-color: rgb(3,19,53);
+    padding-block: 20px ;
+    position: sticky;
+    top: 0;
+}
+.three{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(62,88,142);
+    width: 30rem;
+    border-radius: 30px;
+    padding: 10px;
+    padding-inline: 20px;
+}
+.normal{
+    color: white;
+    font-size: 18px;
+}
+.three svg{
+    color: rgb(176,211,236);
+}
+.button1{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    color: white;
+}
+.four{
+    background-color: rgb(3,87,238);
+    width: 12rem;
+    padding: 15px;
+    border-radius: 5px;
+    align-items: center;
+    padding-block: 15px;
+}
+.four svg {
+    color: white;
+}
+.five{
+    display: flex;
+    gap: 5px;
+}
+.big{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 200px;
+    padding-inline: 16px;
+}
+.class3{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 7rem;
+    /* width: 50%; */
+    
+}
+.ours{
+    font-size: 75px;
+    color:white;
+}
+.your{
+    font-size: 80px;
+    color: rgb(196,233,253);
+}
+.home{
+    color: white;
+}
+.collect{
+    font-size: 27px;
+    color: rgb(187,201,213);
+}
+header{
+    background-color: rgb(3,19,53);
+    padding-inline: 40px;
+    
+    
+}
+.image{
+    width: 70%;
+}
+
+.image img {
+    width: 100%;
 }
