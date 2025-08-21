@@ -9,6 +9,7 @@ body{
 .class{
     display: flex;
     gap: 10px;
+    /* width: ; */
 }
 .part h2{
     color: white;
@@ -76,6 +77,7 @@ body{
     display: flex;
     gap: 30rem;
     justify-content: center;
+    width: 96%;
 }
 .class2{
     display: flex;
@@ -170,3 +172,323 @@ header{
 .image img {
     width: 100%;
 }
+
+.part-f{
+    background-color:rgb(245, 252, 253) ;
+    
+}
+.first-div{
+    background-color:rgb(231, 250, 243)  ;
+    padding-block: 120px;
+    padding-inline: px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.but-1{
+    width: 100px;
+    background-color: bisque;
+    color: rgb(1, 1, 77);
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.fh{
+    font-size: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.second-div{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.head{
+    color: blue;
+    font-family: Aventa-ExtraBold, sans-serif;
+    font-size: 27.2844px;
+    font-weight: 650;
+    line-height: 30.3556px;
+    color: rgb(9, 34, 86);
+    padding-top: 20px;
+
+}
+
+.secnd{
+    background-color: white;
+    margin-inline: 20px;
+    padding: 50px;
+    margin-top: -100px;
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+.sec-par{
+    font-family: "Inter var", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21.84px;
+    color: rgb(3, 11, 29);
+    padding-block: 10px;
+}
+icon{
+    background-color:rgb(231, 250, 243) ;
+    padding: 30px;
+} 
+
+
+.link1{
+    font-family: "Inter var", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21.84px;
+    color: rgb(3, 87, 238);
+    text-decoration-line:none ;
+}
+
+.stray-h{
+    font-family: Aventa-ExtraBold, sans-serif;
+font-size: 39.3556px;
+font-weight: 600;
+line-height: 33.9982px;
+color: rgb(18, 48, 114);
+padding-block: 40px;
+padding-left: 20px;
+margin-right: 900px;
+
+}
+.third-div{
+    display: flex;
+    justify-content: space-between;
+}
+.trd{
+    background-color: white;
+    margin-inline: 20px;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 120px;
+
+}
+.h3{
+    font-family: Aventa-Bold, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(14, 37, 85);
+    padding-bottom: 10px;
+}
+.p3{
+    font-family: "Inter var", sans-serif;
+    font-size: 15.1778px;
+    font-weight: 400;
+    line-height: 23.6773px;
+    color: rgb(65, 71, 79);
+    padding-block: 20px;
+    padding-right: 10;
+}
+.klas{
+    font-family: "Inter var", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18.72px;
+    color: rgb(3, 87, 238);
+}
+.spp{
+    background-color: rgb(231, 250, 243);
+    padding: 8px;
+    border-radius: 20px;
+    margin-inline: 8px;
+    
+}
+.lm{
+    font-family: "Inter var", sans-serif;
+    font-size: 15.1778px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.stray-2{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 10px; 
+}
+.gg{
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.fourth-div{
+    display: flex;
+    justify-content: space-between;
+
+}
+.my-immg{
+    width:550px;
+}
+.div4{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-bottom: 60px;
+}
+.div4h{
+    font-family: Aventa-Bold, sans-serif;
+    font-size: 22.7667px;
+    font-weight: 400;
+    line-height: 31.8733px;
+    color: rgb(9, 34, 86);
+    margin: 20px;
+}
+.hhr{
+    background-color: rgb(167, 247, 220);
+    margin: 20px;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.fifth-div{
+    background-color: rgb(17, 17, 180);
+    padding-block: 90px;
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    text-align: center;
+    /* justify-content: center; */
+}
+.ffd-h{
+    font-family: Aventa-Bold, sans-serif;
+    font-size: 37.9444px;
+    font-weight: 650;
+    line-height: 42.4978px;
+    color: rgb(255, 255, 255);
+}
+.ffd-p{
+    font-family: "Inter var", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.96px;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.hhr-fifd{
+    background-color: bisque;
+    padding: 20px;
+    color: black;
+    border-radius: 10px;
+    font-size: 18px;
+
+}
+.last-div{
+    background-color: #030b1d;
+    padding: 100px 50px ;
+    color: white;
+    /* line-height: 28px; */
+}
+
+.last-first{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    
+}
+.fis-1{
+
+}
+.store{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+
+}
+.store-1{
+    display: flex;
+    background-color: rgb(2,7,17);
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-block: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+
+}
+.httf{
+    font-family: "Inter var", sans-serif;
+    font-size: 15.1778px;
+    font-weight: 500;
+    line-height: 28.0789px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+}
+.ttf{
+    font-family: "Inter var", sans-serif;
+    font-size: 15.2806px;
+    font-weight: 500;
+    line-height: 20.8505px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-block: 5px;
+
+}
+.thf{
+    font-family: "Inter var", sans-serif;
+    font-size: 15.1778px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgb(255, 255, 255);
+}
+.last-second{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.last-last{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+.dlastfoot{
+    font-family: "Inter var", sans-serif;
+    font-size: 13.2806px;
+    font-weight: 500;
+    line-height: 25.8971px;
+    color: rgba(255, 255, 255, 0.4);
+}
+.middle-last{
+    padding-top: 60px;
+}   
+.middle-lastpm{
+    padding-top: 80px;
+}
+.middle-lastp{
+    padding-bottom: 20px;
+}
+.ll-1{
+    display: flex;
+    justify-content: space-between ;
+    gap: 80px;
+    
+}
+hr{
+    border:0.5px solid rgba(255, 255, 255, 0.4);
+}
+
+
+
+    
