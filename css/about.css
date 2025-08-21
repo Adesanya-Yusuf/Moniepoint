@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.class{
+    display: flex;
+    gap: 10px;
+}
+.part h2{
+    color: white;
+    font-size: 20px;
+}
+.part p{
+    color: white;
+    font-size: 13px
+}
+.flex a{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgb(53,66,93);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.gun a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.gun a:hover{
+    background-color: rgb(53,66,93);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.zeus{
+    display: flex;
+    gap: 30px;
+}
+.class1{
+    display: flex;
+    background-color: rgb(196,233,253);
+    width: 7rem;
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+.one{
+    display: flex;
+    align-items: center;
+}
+.two a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.bigcontainer{
+    display: flex;
+    gap: 30rem;
+    justify-content: center;
+}
+.class2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    background-color: rgb(3,19,53);
+    padding-block: 20px ;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+.three{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(62,88,142);
+    width: 30rem;
+    border-radius: 30px;
+    padding: 10px;
+    padding-inline: 20px;
+}
+.normal{
+    color: white;
+    font-size: 18px;
+}
+.three svg{
+    color: rgb(176,211,236);
+}
+.button1{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    color: white;
+}
+.four{
+    background-color: rgb(3,87,238);
+    width: 12rem;
+    padding: 15px;
+    border-radius: 5px;
+    align-items: center;
+    padding-block: 15px;
+}
+.four svg {
+    color: white;
+}
+.five{
+    display: flex;
+    gap: 5px;
+}
+.hero{
+    background-image:url(/Images/hero.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero-inner {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    opacity: 0.5;
+}
+.h3{
+    background-color: rgb(255,240,194);
+    color: rgb(9,34,86);
+    opacity: 0.9;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    width: fit-content;
+    align-items: center;
+}
+.pew{
+display: flex;
+
+}
+.wee{
+    line-height: 50px;
+}
+.naomi{
+    background-color:rgb(3,19,53);;
+    padding-inline: 80px;
+    padding-block: 30px;
+    font-size: 30px;
+    font-size: 40px;
+    font-family: "Nunito Sans", sans-serif;
+    text-align: center;
+  border-radius: 20px;
+  color: white;
+}
+.damage{
+    font-size: 60px;
+}
+.emm{
+    padding-inline: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+.blue{
+background-color:rgb(3,19,53);
+display: flex;
+margin-top: 150px;
+
+}
+.lass{
+color: white;
+justify-content: center;
+align-items: center;
+margin-top: 200px;
+margin-inline: 190px;
+}
+.ss{
+padding-inline:40px ;
+}
+.aa{
+padding-inline: ;
+}
+.uio{
+    height:500px;
+    width: 500px;
+}
+.mm{
+height: ;
+padding-inline: 60px;
+
+}
+.nn{
+height: 230px;
+width: 330px;
+border-radius: 20px;
+}
+.wer{
+    display: flex;
+    margin-top: 30px;
+}
+.red{
+    background-image: url(../ctaL.svg);
+    background-position: center;
+    background-size: cover; 
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+.p{
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+:root {
+  --text-dark: #1f2937;
+  --text-light: #4b5563;
+  --bg-footer: #f9fafb;
+  --link-color: #2563eb;
+}
+
+.footer {
+  background: var(--bg-footer);
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: var(--text-dark);
+}
+
+.footer .footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* About & Contact info */
+.footer .about p {
+  margin-bottom: 0.5rem;
+  color: var(--text-light);
+}
+
+.footer .about .address a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+/* Navigation & app downloads */
+.footer .links .footer-nav {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer .links .footer-nav a {
+  color: var(--text-light);
+  text-decoration: none;
+}
+
+.footer .links .downloads .app-link {
+  display: inline-block;
+  margin-right: 0.5rem;
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+/* Socials and policies */
+.footer .misc .socials a {
+  margin-right: 0.75rem;
+  color: var(--text-light);
+  text-decoration: none;
+}
+
+.footer .misc .policy-links {
+  margin-top: 1rem;
+}
+
+.footer .misc .policy-links a {
+  margin-right: 1rem;
+  color: var(--text-light);
+  text-decoration: none;
+}
+
+/* Responsive layout for larger screens */
+@media (min-width: 768px) {
+  .footer .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .footer .about,
+  .footer .links,
+  .footer .misc {
+    flex: 1;
+  }
+
+  .footer .links {
+    text-align: center;
+  }
+
+  .footer .misc {
+    text-align: right;
+  }
+  
+  .footer .links .footer-nav {
+    justify-content: center;
+  }
+}
