@@ -74,7 +74,7 @@ body{
 }
 .bigcontainer{
     display: flex;
-    gap: 30rem;
+    gap: 30rem; 
     justify-content: center;
 }
 .class2{
@@ -160,6 +160,7 @@ nav{
 header{
     background-color: rgb(3,19,53);
     padding-inline: 40px;
+    height: 110vh;
     
     
 }
@@ -169,4 +170,445 @@ header{
 
 .image img {
     width: 100%;
+}
+.class4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 30px ;
+}
+.part1 h2{
+    color: rgb(9,34,86);
+    font-size: 35px;
+}
+.part1 p{
+    color: rgb(9,34,86);
+    font-weight: bolder;
+    font-size: 30px;
+}
+.part2 a{
+    color: rgb(36,94,238);
+    font-weight: bolder;
+}
+.part2 p{
+    color: rgb(113,152,202);
+}
+.part3 p{
+    font-size: 120px;
+}
+.part4{
+    border: 1px solid rgb(243,245,249);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-inline: 20px;
+    
+}
+.company{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -100px;
+        background-color: white;
+        height: 65vh;
+        border-radius: 20px;
+        margin-inline: 50px;
+}
+.class5{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.lol{
+    background-color: black;
+}
+.name{
+    background-color: rgb(248,250,253);
+    
+}
+.part5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wow{
+    color: #1A3163;
+    font-family: Aventa-ExtraBold, sans-serif;
+    font-size: 40px;
+}
+.wow1{
+    color: #1A3163;
+    font-family: Aventa-ExtraBold, sans-serif;
+    font-size: 40px;
+}
+.class6{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.flex1{
+    border: 2px solid rgb(252,252,252);
+    width: 11rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(164,174,196);
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(196,233,253);
+    justify-content: center;
+}
+.flex2{
+    border: 2px solid rgb(252,252,252);
+    width: 13rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(164,174,196);
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+.flex3{
+    border: 2px solid rgb(252,252,252);
+    width: 13rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(164,174,196);
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+.flex4{
+    border: 2px solid rgb(252,252,252);
+    width: 10rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(164,174,196);
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+.flex5{
+    border: 2px solid rgb(252,252,252);
+    width: 7rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(164,174,196);
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+.name1{
+    background-color: white;
+    width: 70rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-left: 15rem;
+    position: sticky;
+
+}
+.flex6{
+    border: 2px solid rgb(252,252,252);
+    width: 11rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(18,65,151);
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(236,242,254);
+    justify-content: center;
+}
+.free{
+    color: rgb(21,45,95);
+    font-size: 40px;
+    width: 25rem;
+    font-family: Aventa-ExtraBold, sans-serif;
+}
+.free1{
+    font-size: 18px;
+    line-height: 28.08px;
+    width: 25rem;
+    color: rgb(66,89,146);
+}
+.open{
+    display: flex;
+     gap:   20px; 
+}
+.account{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+}
+.accounts{
+    border: none;
+    background-color: transparent;
+    color: rgb(76,135,240);
+    font-size: 16px;
+}
+.open1{
+    background-color: rgb(3,87,238);
+    width: 10rem;
+    padding: 15px;
+    border-radius: 5px;
+    align-items: center;
+    padding-block: 15px;
+    
+}
+.open2{
+    background-color: white;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.bigcontainer1{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 100px;
+    gap: 300px; 
+}
+.space{
+    display: flex;
+    flex-direction: column;
+    gap: 23px; 
+    margin-top: 100px;
+}
+.down{
+    margin-top: 100px;
+}
+.flex7{
+    border: 2px solid rgb(252,252,252);
+    width: 13rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(18,65,151);
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(236,242,254);
+    justify-content: center;
+}
+.free2{
+    color: rgb(21,45,95);
+    font-size: 40px;
+    width: 26rem;
+    font-family: Aventa-ExtraBold, sans-serif;
+    font-weight: bolder;
+}
+.free3{
+    font-size: 18px;
+    line-height: 28.08px;
+    width: 23rem;
+    color: rgb(66,89,146);
+}
+.bigcontainer2{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+     gap: 300px; 
+}
+.space1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+.flex8{
+    border: 2px solid rgb(252,252,252);
+    width: 9rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(18,65,151);
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(236,242,254);
+    justify-content: center;
+
+}
+.free4{
+    color: rgb(21,45,95);
+    font-size: 40px;
+    width: 26rem;
+    font-family: Aventa-ExtraBold, sans-serif;
+    font-weight: bolder;
+}
+.free5{
+    font-size: 18px;
+    line-height: 28.08px;
+    width: 23rem;
+    color: rgb(66,89,146);
+}
+.space2{
+    display: flex;
+    flex-direction: column;
+     gap: 20px; 
+}
+.bigcontainer3{
+    display: flex;
+    margin-left: 100px;
+    gap: 300px;
+}
+.accountt{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+}
+.open15{
+    background-color: rgb(3,87,238);
+    width: 8rem;
+    padding: 15px;
+    border-radius: 5px;
+    align-items: center;
+    padding-block: 15px;
+}
+.bigcontainer4{
+    display: flex;
+    margin-left: 100px;
+    gap: 300px;
+}
+.flex9{
+    border: 2px solid rgb(252,252,252);
+    width: 14rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(18,65,151);
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(236,242,254);
+    justify-content: center;
+}
+.pine{
+    color: rgb(9,34,86);
+    font-size: 40px;
+    width: 19rem;
+    font-weight: 400;
+}
+.prime{
+    display: flex;
+    gap: 35px;
+}
+.zane{
+    display: flex;
+    justify-content: space-between;
+}
+.pines{
+    font-size: 18px;
+    width: 25rem;
+    color: rgb(9,34,86);
+    line-height: 25px;
+}
+.close{
+    border-top: 1px solid rgb(203,208,218);
+    width: 20rem;
+}
+.close1{
+    color: rgb(9,34,86);
+    font-size: 20px;
+    font-weight: bolder;
+}
+.close2{
+    color: rgb(9,34,86);
+    font-size: 20px;
+}
+.bigcontainer5{
+    display: flex;
+    gap: 100px;
+}
+.mine{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 70px;
+}
+.corn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-inline: 50px;
+}
+.file{
+    display: flex;
+    gap: 20px;
+    margin-top: 100px;
+}
+.file1{
+    background-color: rgb(248,250,253);
+    width: 5rem;
+    height: 4.5rem;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.ninja{
+    display: flex;
+    gap: 10rem;
+    padding-top: 10rem;
+}
+.ninja1 p{
+    color: rgb(9,34,86);
+    font-size: 24px;
+    font-weight: bolder;
+}
+.ninja2 p{
+    color: rgb(62,88,142);
+    font-size: 24px;
+    width: 20rem;
+}
+.colo{
+    background-color: rgb(255,250,235);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.colo1{
+    color: rgb(62,95,150);
+    font-size: 20px;
+    width: 20rem;
+}
+.jafar{
+    background-color: rgb(248,250,253);
+    
+}
+.mm{
+    background-color: white;
+    height: 18rem;
+    width: 29rem;
+    border-radius: 20px;
+    padding: 0px;
+}
+.mmm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 35px;
+    padding-inline: 30px;
+}
+.none{
+    display: flex;
+    gap: 30px;
+    padding-top: 3rem;
+}
+.clone{
+    display: flex;
+    gap: 3rem;
+    margin-top: 13rem;
+}
+.clone1 h1{
+    color: rgb(9,34,86);
+    font-size: 40px;
+}
+.clone1 p{
+    color: rgb(62,88,142);
+    font-size: 24px;
 }
